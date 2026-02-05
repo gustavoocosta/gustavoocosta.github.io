@@ -161,3 +161,41 @@ footer {
   background-color: #084a9e;
   transform: translateY(-2px);
 }
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.contact-buttons a {
+  padding: 14px 26px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-email {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+.btn-email:hover {
+  background: #0ea5e9;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(56, 189, 248, 0.35);
+}
+
+.btn-whatsapp {
+  background: #22c55e;
+  color: #022c22;
+}
+
+.btn-whatsapp:hover {
+  background: #16a34a;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(34, 197, 94, 0.35);
+}
+
