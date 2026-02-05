@@ -2,48 +2,79 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>Gustavo Costa</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      background: linear-gradient(180deg, #f8b4c0, #fde2e8);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: 'Segoe UI', sans-serif;
-      color: white;
-      text-align: center;
-    }
-    h1 {
-      font-size: 3.5rem;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 1.2rem;
-      opacity: 0.9;
-    }
-    .links a {
-      margin: 0 10px;
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .links a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gustavo Costa | Desenvolvedor Backend</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div>
-    <h1>Gustavo Costa</h1>
-    <p>Desenvolvedor Back-end • Java • Spring • Golang • AWS</p>
 
-    <div class="links">
-      <a href="https://github.com/gustavocosta" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/gustavocosta/" target="_blank">LinkedIn</a>
+<header class="hero">
+  <h1>👋 Olá! Eu sou o <span>Gustavo Costa</span></h1>
+  <p class="subtitle">Desenvolvedor Backend Jr • Java • Go • Node.js</p>
+
+  <div class="buttons">
+    <a href="https://github.com/gustavoocosta" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/gustavosocosta" target="_blank" class="outline">LinkedIn</a>
+  </div>
+</header>
+
+<section class="section">
+  <h2>Sobre mim</h2>
+  <p>
+    Desenvolvedor Backend Jr com experiência em <strong>Java (Spring Boot, Quarkus)</strong>,
+    <strong>Golang</strong> e <strong>JavaScript (Node.js, React)</strong>.
+    Atuo no desenvolvimento de <strong>APIs RESTful</strong>, microsserviços,
+    integrações seguras e aplicações em cloud.
+  </p>
+</section>
+
+<section class="section">
+  <h2>Tecnologias</h2>
+
+  <div class="skills">
+    <span>Java</span>
+    <span>Spring Boot</span>
+    <span>Quarkus</span>
+    <span>Golang</span>
+    <span>Node.js</span>
+    <span>React</span>
+    <span>PostgreSQL</span>
+    <span>SQL Server</span>
+    <span>Docker</span>
+    <span>AWS</span>
+    <span>GCP</span>
+    <span>Git</span>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Projetos</h2>
+
+  <div class="projects">
+    <div class="card">
+      <h3>🎵 Music Streaming App</h3>
+      <p>Streaming de música em Java + Spring Boot + React + PostgreSQL.</p>
+      <a href="https://github.com/gustavoocosta/music-streaming-app.git" target="_blank">Ver no GitHub</a>
+    </div>
+
+    <div class="card">
+      <h3>🏦 GcBank</h3>
+      <p>Aplicação bancária simulada focada em segurança e performance.</p>
+      <a href="https://github.com/gustavoocosta/GcBank.git" target="_blank">Ver no GitHub</a>
+    </div>
+
+    <div class="card">
+      <h3>✈️ TripGo Travel API</h3>
+      <p>API de gerenciamento de viagens com Quarkus, JWT e Flyway.</p>
+      <a href="https://github.com/gustavoocosta/tripgo-travel-api" target="_blank">Ver no GitHub</a>
     </div>
   </div>
+</section>
+
+<footer>
+  <p>© 2026 • Gustavo Costa</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
